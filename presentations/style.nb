@@ -1,0 +1,167 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7023,        159]
+NotebookOptionsPosition[      5905,        136]
+NotebookOutlinePosition[      6311,        153]
+CellTagsIndexPosition[      6268,        150]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[StyleData[StyleDefinitions -> FrontEnd`FileName[{"PresenterTools"}, 
+  "Garnet.nb", CharacterEncoding -> "UTF-8"]],ExpressionUUID->"28a3d553-8bb7-\
+4662-8d4a-57c34698a223"],
+
+Cell[StyleData[All],
+ FontFamily->
+  "\:5fae\:8f6f\:96c5\:9ed1",ExpressionUUID->"3d4017fc-ddc5-499e-b3b4-\
+930afe096a4e"],
+
+Cell[CellGroupData[{
+
+Cell["Key Styles", "Subsubsection",ExpressionUUID->"244587eb-746c-45ea-89e0-4293e5234f18"],
+
+Cell[StyleData["Key0"],
+ TemplateBoxOptions->{DisplayFunction->(FrameBox[
+   TagBox[
+    GridBox[{{
+       ItemBox[
+        TemplateBox[{"\[ThickSpace]", #, "\[ThickSpace]"}, "RowDefault"], 
+        Background -> GrayLevel[1], StripOnInput -> False]}}, 
+     GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Baseline}}}, 
+     AutoDelete -> False, GridBoxDividers -> {"Rows" -> {{None}}}, 
+     GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{1.45}}}, 
+     GridBoxSpacings -> {"Columns" -> {{0}}}, 
+     BaselinePosition -> {{1, 1}, Baseline}], "Grid"], RoundingRadius -> 4, 
+   Background -> GrayLevel[0.9333333333333333], 
+   FrameMargins -> {{0, 0}, {-1, -1}}, FrameStyle -> {
+     GrayLevel[0.8352941176470589], 
+     AbsoluteThickness[1]}, BaselinePosition -> Baseline, StripOnInput -> 
+   False]& )},ExpressionUUID->"a1c054c5-6972-405a-8795-2d5c8e630551"],
+
+Cell[StyleData["Key1"],
+ TemplateBoxOptions->{DisplayFunction->(FrameBox[
+   TagBox[
+    GridBox[{{
+       ItemBox[
+        TemplateBox[{"\[ThickSpace]", #, "\[ThickSpace]"}, "RowDefault"], 
+        Background -> GrayLevel[0.9333333333333333], StripOnInput -> False], 
+       ItemBox[
+        TemplateBox[{"\[ThickSpace]", #2, "\[ThickSpace]"}, "RowDefault"], 
+        Background -> GrayLevel[1], StripOnInput -> False]}}, 
+     GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Baseline}}}, 
+     AutoDelete -> False, 
+     GridBoxDividers -> {
+      "ColumnsIndexed" -> {2 -> GrayLevel[0.8352941176470589]}, 
+       "Rows" -> {{None}}}, 
+     GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{1.45}}}, 
+     GridBoxSpacings -> {"Columns" -> {{0}}}, 
+     BaselinePosition -> {{1, 1}, Baseline}], "Grid"], RoundingRadius -> 4, 
+   Background -> GrayLevel[0.9333333333333333], 
+   FrameMargins -> {{0, 0}, {-1, -1}}, FrameStyle -> {
+     GrayLevel[0.8352941176470589], 
+     AbsoluteThickness[1]}, BaselinePosition -> Baseline, StripOnInput -> 
+   False]& )},ExpressionUUID->"e024c7f3-89c5-478f-8294-c9fe26786f73"],
+
+Cell[StyleData["Key2"],
+ TemplateBoxOptions->{DisplayFunction->(FrameBox[
+   TagBox[
+    GridBox[{{
+       ItemBox[
+        TemplateBox[{"\[ThickSpace]", #, "\[ThickSpace]"}, "RowDefault"], 
+        Background -> GrayLevel[0.9333333333333333], StripOnInput -> False], 
+       ItemBox[
+        TemplateBox[{"\[ThickSpace]", #2, "\[ThickSpace]"}, "RowDefault"], 
+        Background -> GrayLevel[0.9333333333333333], StripOnInput -> False], 
+       ItemBox[
+        TemplateBox[{"\[ThickSpace]", #3, "\[ThickSpace]"}, "RowDefault"], 
+        Background -> GrayLevel[1], StripOnInput -> False]}}, 
+     GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Baseline}}}, 
+     AutoDelete -> False, 
+     GridBoxDividers -> {
+      "ColumnsIndexed" -> {
+        2 -> GrayLevel[0.8352941176470589], 3 -> 
+         GrayLevel[0.8352941176470589]}, "Rows" -> {{None}}}, 
+     GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{1.45}}}, 
+     GridBoxSpacings -> {"Columns" -> {{0}}}, 
+     BaselinePosition -> {{1, 1}, Baseline}], "Grid"], RoundingRadius -> 4, 
+   Background -> GrayLevel[0.9333333333333333], 
+   FrameMargins -> {{0, 0}, {-1, -1}}, FrameStyle -> {
+     GrayLevel[0.8352941176470589], 
+     AbsoluteThickness[1]}, BaselinePosition -> Baseline, StripOnInput -> 
+   False]& )},ExpressionUUID->"b416854c-6142-40b0-8820-c1672e8216fe"],
+
+Cell[StyleData["Key3"],
+ TemplateBoxOptions->{DisplayFunction->(FrameBox[
+   TagBox[
+    GridBox[{{
+       ItemBox[
+        TemplateBox[{"\[ThickSpace]", #, "\[ThickSpace]"}, "RowDefault"], 
+        Background -> GrayLevel[0.9333333333333333], StripOnInput -> False], 
+       ItemBox[
+        TemplateBox[{"\[ThickSpace]", #2, "\[ThickSpace]"}, "RowDefault"], 
+        Background -> GrayLevel[0.9333333333333333], StripOnInput -> False], 
+       ItemBox[
+        TemplateBox[{"\[ThickSpace]", #3, "\[ThickSpace]"}, "RowDefault"], 
+        Background -> GrayLevel[0.9333333333333333], StripOnInput -> False], 
+       ItemBox[
+        TemplateBox[{"\[ThickSpace]", #4, "\[ThickSpace]"}, "RowDefault"], 
+        Background -> GrayLevel[1], StripOnInput -> False]}}, 
+     GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Baseline}}}, 
+     AutoDelete -> False, 
+     GridBoxDividers -> {
+      "ColumnsIndexed" -> {
+        2 -> GrayLevel[0.8352941176470589], 3 -> 
+         GrayLevel[0.8352941176470589], 4 -> GrayLevel[0.8352941176470589]}, 
+       "Rows" -> {{None}}}, 
+     GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{1.45}}}, 
+     GridBoxSpacings -> {"Columns" -> {{0}}}, 
+     BaselinePosition -> {{1, 1}, Baseline}], "Grid"], RoundingRadius -> 4, 
+   Background -> GrayLevel[0.9333333333333333], 
+   FrameMargins -> {{0, 0}, {-1, -1}}, FrameStyle -> {
+     GrayLevel[0.8352941176470589], 
+     AbsoluteThickness[1]}, BaselinePosition -> Baseline, StripOnInput -> 
+   False]& )},ExpressionUUID->"67c82a70-3f33-4377-80fe-d1caff00d554"]
+}, Open  ]]
+},
+WindowSize->{775, 658},
+WindowMargins->{{Automatic, 351}, {Automatic, 39}},
+TrackCellChangeTimes->False,
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (2019\:5e745\:670818\
+\:65e5)",
+StyleDefinitions->"PrivateStylesheetFormatting.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 177, 2, 37, 120, 1, "StyleData", "StyleDefinitions", "",ExpressionUUID->"28a3d553-8bb7-4662-8d4a-57c34698a223"],
+Cell[738, 24, 121, 3, 39, 20, 0, "StyleData", "All", "All",ExpressionUUID->"3d4017fc-ddc5-499e-b3b4-930afe096a4e"],
+Cell[CellGroupData[{
+Cell[884, 31, 90, 0, 46, "Subsubsection",ExpressionUUID->"244587eb-746c-45ea-89e0-4293e5234f18"],
+Cell[977, 33, 877, 16, 39, 23, 0, "StyleData", "Key0", "All",ExpressionUUID->"a1c054c5-6972-405a-8795-2d5c8e630551"],
+Cell[1857, 51, 1126, 22, 39, 23, 0, "StyleData", "Key1", "All",ExpressionUUID->"e024c7f3-89c5-478f-8294-c9fe26786f73"],
+Cell[2986, 75, 1343, 26, 39, 23, 0, "StyleData", "Key2", "All",ExpressionUUID->"b416854c-6142-40b0-8820-c1672e8216fe"],
+Cell[4332, 103, 1557, 30, 39, 23, 0, "StyleData", "Key3", "All",ExpressionUUID->"67c82a70-3f33-4377-80fe-d1caff00d554"]
+}, Open  ]]
+}
+]
+*)
+
